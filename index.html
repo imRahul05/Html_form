@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FORM</title>
+    <script>
+        function sub(){
+            alert("submitted Succesfully");
+        }
+    </script>
+  </head>
+  <body>
+    <div id="form_body">
+        <form>
+            <div id="name">
+              <label>NAME:</label>
+              <input type="text" id="name" />
+            </div><br>
+            <div id="mail">
+              <label>Email:</label>
+              <input type="email" id="mailid" />
+            </div><br>
+            <div id="dob">
+                <label>Date of Birth:</label>
+               <input type="date" id="dob">
+            </div><br>
+            <div id="phone">
+              <label>Mobile No:</label>
+              <input type="number" id="phone_number" />
+            </div><br>
+            <div id="gender">
+              <label>Gender:</label>
+              <select>
+                <option value="female">MALE</option>
+                <option value="male">FEMALE</option>
+                <option value="Others">OTHERS</option>
+              </select>
+            </div><br>
+            <div id="address">
+              <label>Address:</label>
+                  <textarea id="address" name="address" rows="5" cols="30"></textarea>
+            </div><br>
+            <div id="password">
+              <label>Password:</label>
+              <input type="password" id="password">
+            </div><br>
+            <diV id="terms">
+                <input type="checkbox" id="terms" value="kataa">
+                <label>I agree to all the Terms & Conditions</label>
+            </div><br>
+            <div id="button">
+                    <button onclick="sub()">Submit</button>
+                    <button>Reset</button>
+            </div>
+          </form>
+    </div>
+  </body>
+</html>
